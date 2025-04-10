@@ -1,4 +1,4 @@
-# Solutions de l'évaluation notée 2 du groupe [nom-groupe]
+# Solutions de l'évaluation notée 2 du groupe [k-w-g-d]
 
 Solutions de l'évaluation notée 2 du groupe [k-w-g-d] à l'aide de MkDocs.
 
