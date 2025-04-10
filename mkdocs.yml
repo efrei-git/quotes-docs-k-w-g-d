@@ -1,1 +1,4 @@
 site_name: Documentation Programming Quotes k-w-g-d
+nav:
+  - Home: index.md
+  - Features: features.md
