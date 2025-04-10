@@ -5,6 +5,7 @@ Solutions de l'évaluation notée 2 du groupe [k-w-g-d] à l'aide de MkDocs.
 ## Membres du groupe
 
 - `initiateur` : [Khauv Michel]
+- Contributeur1 : Ghazanfar Walide https://github.com/Walidee27/quotes-docs-k-w-g-d.git
 
 ## URLs des dépôts
 
