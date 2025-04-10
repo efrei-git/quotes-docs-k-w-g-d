@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>User Interface - Documentation Programming Quotes k-w-g-d</title>
+        <title>Features - Documentation Programming Quotes k-w-g-d</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -38,13 +38,13 @@
                                 <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../features/" class="nav-link">Features</a>
+                                <a href="./" class="nav-link active" aria-current="page">Features</a>
                             </li>
                             <li class="nav-item">
                                 <a href="../functions/" class="nav-link">Core Functions</a>
                             </li>
                             <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">User Interface</a>
+                                <a href="../user-interface/" class="nav-link">User Interface</a>
                             </li>
                         </ul>
 
@@ -55,12 +55,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../functions/" class="nav-link">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" class="nav-link disabled">
+                                <a rel="next" href="../functions/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -82,7 +82,22 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="2"><a href="#interface" class="nav-link">Interface</a>
+            <li class="nav-item" data-bs-level="2"><a href="#main-files" class="nav-link">Main files</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#usage" class="nav-link">Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#features-and-commands" class="nav-link">Features and commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#example" class="nav-link">Example</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -91,50 +106,37 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="interface">Interface</h2>
-<h3 id="file-mainpy">File <code>main.py</code></h3>
-<h4 id="menu"><code>menu()</code></h4>
-<pre><code class="language-python">def menu():
-    &quot;&quot;&quot;
-    Displays the menu options for the user.
-    The menu includes options to display a random quote, display a specified
-    number of quotes, add a new quote, and exit the program.
-    Returns:
-    None
-    &quot;&quot;&quot;
-    print(&quot;\n==== Programming Quotes ====&quot;)
-    print(&quot;random : Random quote&quot;)
-    print(&quot;display : Display quotes&quot;)
-    print(&quot;add : Add a new quote&quot;)
-    print(&quot;exit : Exit the program&quot;)
+<h2 id="main-files">Main files</h2>
+<ul>
+<li><code>main.py</code> : Main file of the application.</li>
+<li><code>quotes.txt</code> : File containing the quotes.</li>
+<li><code>functions.py</code> : File containing the functions used in the application.</li>
+</ul>
+<hr />
+<h2 id="usage">Usage</h2>
+<p>Clone the repository and run the following command to start the application:</p>
+<pre><code class="language-bash">$ git clone &lt;url-du-TP4/quotes&gt;
+$ cd quotes
+$ python main.py
 </code></pre>
-<h4 id="main"><code>main()</code></h4>
-<pre><code class="language-python">def main():
-    &quot;&quot;&quot;
-    Main function to run the program.
-    It loads quotes from a file, displays the menu, and processes user input
-    to perform actions based on the user's choice.
-    Returns:
-    None
-    &quot;&quot;&quot;
-    while True:
-        quotes = load_quotes(&quot;quotes.txt&quot;)
-        menu()
-
-        choice = input(&quot;&gt;&gt; &quot;)
-
-        if choice == &quot;random&quot;:
-            print_quote(random_quote(quotes))
-        elif choice == &quot;display&quot;:
-            count = int(input(&quot;Enter the number of quotes to display: &quot;))
-            display_quotes(quotes, count)
-        elif choice == &quot;add&quot;:
-            add_quote(quotes, &quot;quotes.txt&quot;)
-        elif choice == &quot;exit&quot;:
-            print(&quot;Good bye...&quot;)
-            break
-        else:
-            print(&quot;Invalid input&quot;)
+<hr />
+<h2 id="features-and-commands">Features and commands</h2>
+<ul>
+<li><code>random</code>  : Get a random programming quote  </li>
+<li><code>display</code> : Display multiple quotes  </li>
+<li><code>add</code>     : Add a new quote to your collection  </li>
+<li><code>exit</code>    : Exit anytime</li>
+</ul>
+<hr />
+<h2 id="example">Example</h2>
+<pre><code class="language-bash">$ python main.py
+==== Programming Quotes ====
+random : Random quote
+display : Display quotes
+add : Add a new quote
+exit : Exit the program
+&gt;&gt; random
+Why do programmers prefer dark chocolate? Because it's byte-sized!
 </code></pre></div>
             </div>
         </div>
