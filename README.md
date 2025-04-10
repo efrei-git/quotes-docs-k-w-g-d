@@ -6,8 +6,8 @@ Solutions de l'évaluation notée 2 du groupe [k-w-g-d] à l'aide de MkDocs.
 
 - `initiateur` : Khauv Michel
 - Contributeur 1 : Ghazanfar Walide 
-- contributeur 2 : Melina Djedaimi, https://github.com/melinadjedaimi/quotes-docs-k-w-g-d#
-- Contributeur 3 : Julien Wu , https://github.com/Number6272/quotes-docs-k-w-g-d
+- contributeur 2 : Melina Djedaimi
+- Contributeur 3 : Julien Wu 
 
 ## URLs des dépôts
 
