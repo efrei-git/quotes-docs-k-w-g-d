@@ -5,5 +5,5 @@ Programming Quotes est petite application qui permet d'afficher des citations hu
 ## Membres du groupe
 
 - `initiateur` : [Khauv Michel]
-
-contributor 3 : Julien Wu , https://github.com/Number6272/quotes-docs-k-w-g-d
+- Contributeur 1: Ghazanfar Walide https://github.com/Walidee27/quotes-docs-k-w-g-d.git
+- contributeur 3 : Julien Wu , https://github.com/Number6272/quotes-docs-k-w-g-d
