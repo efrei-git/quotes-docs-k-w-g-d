@@ -1,5 +1,4 @@
 ## Log Initiateur
-
 ```bash
 * 5f3bd20 (HEAD -> contributeur1, origin/contributeur1) Add features.md to navigation in mkdocs.yml
 * f4df0e7 Add features.md with project functionalities
